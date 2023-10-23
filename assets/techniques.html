@@ -1,15 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <style>
+        .left, .right {
+          float: left;
+          width: 20%; 
+        }
+        
+        .main {
+          float: left;
+          width: 60%; 
+        }
+        
+        
+        @media screen and (max-width: 800px) {
+          .left, .main, .right {
+            width: 100%; 
+          }
+        }
+        </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Mindfulness practice involves focusing your attention on the present moment, acknowledging your thoughts and feelings without judgment.">
-    <meta name="keywords"
-        content="mindfulness practice, mindfulness, present moment, positive thoughts, feelings without judgment">
-
-    <link rel="stylesheet" href="/workspaces/Mindset-Mastery-II/assets/css/style.css">
+    <meta name="description" content="Mindfulness practice involves focusing your attention on the present moment, acknowledging your thoughts and feelings without judgment.">
+    <meta name="keywords" content="mindfulness practice, mindfulness, present moment, positive thoughts, feelings without judgment">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>Mindset Mastery</title>
 </head>
 
@@ -18,49 +35,55 @@
         <h1 id="logo">Mindset Mastery</h1>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Sign up</a></li>
-                <li><a href="techniques.html" class="active">Techniques</a></li>
+                <li><a href="index.html">Sign up</a></li>                
+                <li><a href="techniques.html" class="active">Techniques</a></li>           
                 <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero-outer">
+    <section id="hero-outer" <a hidden target=" hero"></a>
         <div id="hero-image"></div>
         <div id="overlay">
             <p>Universal Practice One Click Away</p>
         </div>
-        <div id="cover-text"></div>
+    <div id="cover-text"></div>
     </section>
-
+    
     <section id="techniques">
-        <h2>Techniques</h2>
-        <p>These are three simple techniques often used in various combinations. They can be adapted to suit individual
-            preferences and needs. It's important to practice regularly for increased self-awareness, reduced stress,
-            improved emotional well-being, and enhanced overall mental clarity.</p>
-        <div class="container">
-            <div class="technique">
-                <h2>Deep Breathing</h2>
-                <p>Take slow and deep breaths, focusing on each inhale and exhale. Notice the sensation of your breath as
-                    you breathe in and out.</p>
-            </div>
-            <div class="technique">
-                <h2>Body Scan</h2>
-                <p>Close your eyes and gradually scan your body from head to toe. Notice any areas of tension or
-                    discomfort and allow them to relax.</p>
-            </div>
-            <div class="technique">
-                <h2>Guided Visualization</h2>
-                <p>Imagine a calm and peaceful place. Visualize yourself there, using your senses to explore the
-                    environment and relax your mind.</p>
-            </div>
-            <h4>Check Headspace!</h4>
-            <p>"Headspace is a popular mindfulness and meditation app that offers guided meditation sessions and other
-                resources to assist individuals in developing mindfulness skills and enhancing their overall
-                well-being. Using apps like Headspace can be a beneficial way to initiate mindfulness, particularly for
-                newcomers to the practice. It provides structured guidance and a range of meditation sessions tailored to
-                various needs and experience levels. Moreover, it aids individuals in establishing a consistent
-                mindfulness routine, which is crucial for reaping the benefits of this practice. If someone is
-                interested in starting a mindfulness practice or improving their current one, exploring Headspace and
-                similar mindfulness apps can be a valuable resource."</p>
-            <a href="https://www.headspace.com/?%243p=a_google_adwords&%24always_deeplink=false&lpurl=https%3A%2F%2Fwww.headspace.com%3Fgclsrc%3Daw.ds%26&~ad_set_id=51529951612&~campaign_id=917256451&~channel=g&~keyword=headspace&~placement&gclid=CjwKCAjw6eWnBhAKEiwADpnw9uGK5D6j5D9XmfHpHjHq7uyqbm5pNGjEweKu5Ore-tAT4_Ss2TcObRoCGb0QAvD_BwE&%24web_only=true&_branch_match_id=1228367175871709704&utm_source=Google%20AdWords&utm_medium=paid%20advertising&_branch_referrer=H4sIAAAAAAAAAz2Oy26DMBBFv8bsAsXEpFRCFQkkqZASNY3U7qwBT3jEgIOhFn9f6CLSbO49ujpTDoPSb45TIgitIMeVwcwGpWxZtXcHHVD64zXo9Elk74SuPRUCL7qukMhBmK4X2pprkAYmzQWiWnbhDaRGS6qxl2G5KIgXEbqfzxhjP2V23
+       <h2>Techniques</h2>
+       <p>These are three simple techniques and are often used in various combinations. They can be adapted to suit individual preferences and needs. Also, is importat to practice regulary to increased self-awareness, reduced stress, improved emotional well-being, and enhanced overall mental clarity. 
+           
+       </p>
+       <div class="container">
+           <div class="technique">
+               <h2>Deep Breathing</h2>
+               <p>Take slow and deep breaths, focusing on each inhale and exhale. Notice the sensation of your breath as you breathe in and out.</p>
+           </div>
+           <div class="technique">
+               <h2>Body Scan</h2>
+               <p>Close your eyes and gradually scan your body from head to toe. Notice any areas of tension or discomfort and allow them to relax.</p>
+           </div>
+           <div class="technique">
+               <h2>Guided Visualization</h2>
+               <p>Imagine a calm and peaceful place. Visualize yourself there, using your senses to explore the environment and relax your mind.</p>
+           </div>
+           <h1>Check Headspace!</h1>
+           <h4> "Headspace is a popular mindfulness and meditation app that offers guided meditation sessions and other resources to assist individuals in developing mindfulness skills and enhancing their overall well-being. Using apps like Headspace can be a beneficial way to initiate mindfulness, particularly for newcomers to the practice. It provides structured guidance and a range of meditation sessions tailored to various needs and experience levels. Moreover, it aids individuals in establishing a consistent mindfulness routine, which is crucial for reaping the benefits of this practice. If someone is interested in starting a mindfulness practice or improving their current one, exploring Headspace and similar mindfulness apps can be a valuable resource."</h4>
+           <a href="https://www.headspace.com/?%243p=a_google_adwords&%24always_deeplink=false&lpurl=https%3A%2F%2Fwww.headspace.com%3Fgclsrc%3Daw.ds%26&~ad_set_id=51529951612&~campaign_id=917256451&~channel=g&~keyword=headspace&~placement&gclid=CjwKCAjw6eWnBhAKEiwADpnw9uGK5D6j5D9XmfHpHjHq7uyqbm5pNGjEweKu5Ore-tAT4_Ss2TcObRoCGb0QAvD_BwE&%24web_only=true&_branch_match_id=1228367175871709704&utm_source=Google%20AdWords&utm_medium=paid%20advertising&_branch_referrer=H4sIAAAAAAAAAz2Oy26DMBBFv8bsAsXEpFRCFQkkqZASNY3U7qwBT3jEgIOhFn9f6CLSbO49ujpTDoPSb45TIgitIMeVwcwGpWxZtXcHHVD64zXo9Elk74SuPRUCL7qukMhBmK4X2pprkAYmzQWiWnbhDaRGS6qxl2G5KIgXEbqfzxhjP2V23jXE2xe51H1OvBiMLTShvkU2CQiuceCVCJnLaBAw13fpAnJoFFRFu6DA3VDmr5n7D0poW5RhsYQ7Tst34dNlzZZ5satNuotq4%2BN3uy2jNKlMFKvWBOMhZbFfszj4aW5HdayPj804PbKGqdOhTgymIzv3uBqi65p%2FaXrNz9ml2x2yl8%2FoN%2BZbk%2FwBlowUxUwBAAA%3D" target="_blank">Visit Headspace-Mindfulness page!</a>
+
+       </div>
+   </section>
+   <footer>
+       <div class="container">
+           <h6>Follow Us on Social Media!</h6>
+           <ul class="social-networks">
+               <li><a href="https://en-gb.facebook.com/"> Facebook<i class="fa-brands fa-facebook-f"></i></a></li>
+               <li><a href="https://www.instagram.com/">Instagram<i class="fa-brands fa-instagram"></i></a></li>
+               <li><a href="https://twitter.com/">X<i class="fa-brands fa-x-twitter"></i></a></li>
+           </ul>
+       </div>
+   </footer>
+       
+</body>
+</html>
